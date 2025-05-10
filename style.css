@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Caveat:wght@400..700&family=Lobster&display=swap");
+body {
+  background: #075c09;
+  background: linear-gradient(
+    90deg,
+    rgba(7, 92, 9, 1) 0%,
+    rgba(0, 255, 106, 1) 53%,
+    rgba(0, 195, 230, 1) 100%
+  );
+}
+
+h1 {
+  font-family: "Caveat", cursive;
+  color: #05822b;
+  text-align: center;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: "Balsamiq Sans", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  color: #70b305;
+}
+
+nav {
+  position: relative;
+}
+
+a,
+p {
+  font-family: "Lobster", sans-serif;
+  font-size: 15px;
+}
+
+nav a {
+  position: absolute;
+  left: -80px;
+  padding: 15px;
+  width: 100px;
+  transition: 1s;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  display: inline-block;
+}
+
+nav a:hover {
+  position: absolute;
+  left: 0;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #87ffac;
+  border-radius: 0 5px 5px 0;
+}
+
+.map {
+  background: #194213;
+  background: linear-gradient(
+    90deg,
+    rgba(25, 66, 19, 1) 0%,
+    rgba(0, 230, 31, 1) 99%
+  );
+}
+
+.pers {
+  top: 60px;
+  background: #2dfc0d;
+  background: linear-gradient(
+    90deg,
+    rgba(45, 252, 13, 1) 0%,
+    rgba(101, 161, 101, 1) 99%
+  );
+}
+
+header h1::after {
+  content: url("https://learn.logikaschool.com/uploads/student/3302388/6817b3afc56a1.png");
+}
+
+a:focus {
+  box-shadow: inset 2px 3px 4px 0 black;
+}
+
+main {
+  position: relative;
+  top: 150px;
+}
+
+main p {
+  color: #077a77;
+}
+
+footer {
+  position: relative;
+  top: 170px;
+  font-size: 25px;
+}
+
+.imgmap:hover {
+  transform: scale(1.5);
+  transition: 2s linear;
+}
+
+.lilit {
+  height: 200px;
+}
+
+.morna {
+  height: 200px;
+}
+
+.valmir {
+  height: 200px;
+}
